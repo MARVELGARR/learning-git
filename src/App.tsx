@@ -5,8 +5,7 @@ function App() {
 
   return (
     <>
-      <div>
-      </div> 
+      <button type='button'>button</button>
     </>
   )
 }
