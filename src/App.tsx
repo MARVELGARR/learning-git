@@ -5,8 +5,11 @@ function App() {
 
   return (
     <div className='w-full h-screen flex items-center justify-center'>
-      <button type='button'>button</button>
-      <input type="text" />
+      <div className="flex flex-col items-center gap-3">
+
+        <button type='button' className="">button</button>
+        <input type="text" className='border-2'/>
+      </div>
     </div>
   )
 }
